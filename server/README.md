@@ -21,7 +21,8 @@ Para arreglar esto debemos crear un archivo de configuración de TS en la raiz (
 
 Definición del archivo:
 
-`{
+```
+{
   "compilerOptions": {
   "outDir": "./dist", --> Directorio donde se va a compilar el JS
   "rootDir": "./src", --> Directorio donde tenemos nuestro proyecto TS
@@ -31,6 +32,7 @@ Definición del archivo:
   "esModuleInterop": true,
   "declaration": true
   }
-}`
+}
+```
 
 Entonces ahora que ya tenemos el archivo tsconfig.js solo debemos ejecutar `npx tsc`
